@@ -7,7 +7,7 @@ public class AltVehicleInspection implements IVehicleInspector {
         }else{
             serviceCharge += 150;
         }
-        System.out.println("Alt Service Charge for Car: " + serviceCharge);
+        System.out.println("Service Charge for Car: " + serviceCharge);
         return serviceCharge;
     }
 
@@ -19,7 +19,7 @@ public class AltVehicleInspection implements IVehicleInspector {
         }else{
             serviceCharge += 300;
         }
-        System.out.println("Alt Service Charge for Van: " + serviceCharge);
+        System.out.println("Service Charge for Van: " + serviceCharge);
         return serviceCharge;
     }
 
@@ -31,7 +31,7 @@ public class AltVehicleInspection implements IVehicleInspector {
         }else{
             serviceCharge += 150;
         }
-        System.out.println("Alt Service Charge for Motorbike: " + serviceCharge);
+        System.out.println("Service Charge for Motorbike: " + serviceCharge);
         return serviceCharge;
     }
 }

@@ -1,5 +1,5 @@
 public class VehicleFactory {
-    private VehicleFactory() { }  // Private constructor
+    private VehicleFactory() { }
 
     public static IVehicleInspector getVehicleInspector(String prop) {
         if (prop != null && prop.equals("alt")) {
