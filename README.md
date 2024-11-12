@@ -75,6 +75,6 @@ This command runs `Act3Main` using the `OneEmissionsStrategy`. To switch strateg
 For Windows systems, use a semicolon (`;`) instead of a colon (`:`) in the classpath. 
 
 
-###Activity 4 -
+### Activity 4 -
 
 I learned that both the Strategy and Visitor patterns are helpful for adding behaviors, but they work better in different situations. The Strategy pattern, which I used in Activity 3 to change how emissions fees are calculated, is great for cases where you want to easily swap behaviors. For example, you can switch between different fee calculation methods without changing the main code. On the other hand, the Visitor pattern lets you add new actions without changing the original classes. I used it in Activity 1 to create different vehicle inspections using the `IVehicleInspector` interface. This pattern was useful because it let me add new types of inspections without changing the vehicle classes, making it easier to expand in the future. Overall, I found the Strategy pattern more straightforward for switching behaviors, like emissions calculations, while the Visitor pattern was more useful for performing specific actions on different types of objects, like inspecting different vehicle types.
